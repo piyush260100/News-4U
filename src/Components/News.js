@@ -32,6 +32,7 @@ const News=(props)=>{
         setTotalResults(parsedData.totalResults)
         setLoading(false)
 
+        
         // this.updateNews();
 
         props.setProgress(100);
